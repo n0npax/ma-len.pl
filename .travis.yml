@@ -5,7 +5,7 @@ before_install:
 - npm install firebase-admin
 - npm install -g firebase-tools
 script:
-- firebase deploy --project ma-len
+- firebase deploy --project ma-len --only hosting:ma-len
 env:
   global:
     secure: rrujhx0F/cA1jjqXAhejDGiUWaQe3IgSIYlxaVKQ9x0bjiJkc+dTLstD1QKg/ZE5T/N1JOsWzrzGHt/f6D7SLKP3tJfv5l0lrLHIlYxIWc8uoVzHkpgdtCgso49x4uCMDDvnbtBiI7NnaxXvIQMq/iRll7pc+fTUBQ3L5u7wCiESa53IUnJt4lGGZBfQVZd/8Xzm0pMVlIrerjbA8pI/AmhNBZXXDlk6/kQvthS1ReYPMxijhqxxKuuHGsJR9mYv1rQq6k0A6PhE1F2wARGWgMYWybWUpBl/c4hVCnXRBesKbdZWu30pMf5W/LdNopsZhf+K5VC76NhHy3Lr/hcSIZlz24dcVFuyHpZJtZctDr2Krq3wzbdC6WeW+fPsGWEc16xPf5cZnOZ1dhPgJNgTTWCkY8tsZ9F2MIkFygxQLoVX8934+5XkFtNCUJ5xZj+blk1kMQRGuh0TzWKLc2jyWa60Uya+KYbAihhC/nostt0CqQqLpkSd6oYuW7ULPRBeVcji4C8ixGSrg2306M06BGeWQeWziTlSPqn5bddEhvEALMPz0H6XnsEiC5JZENX5eztNjE+7Bbt7B5XWGfQ/khOz0w0lzIhMVNYnjn0mhRG58C5pnaX7haDaf4d4pIWpeV3EwnAloTK35bAxSILuDm8zF+5N02XnWLj8J8DwBzA=
