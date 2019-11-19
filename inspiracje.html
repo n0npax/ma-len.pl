@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>!ma len</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery-grid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
+</head>
+<body>
+
+  <div class="site-wrap">
+
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+
+
+
+
+    <header class="site-navbar py-1" role="banner">
+
+      <div class="container-fluid">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2" data-aos="fade-down">
+            <img src="images/logo4.jpg" style="max-width:250px" class="img-responsive">
+
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li><a href="lenmalowany.html">Len malowany</a></li>
+                <li><a href="lendrukowany.html">Len drukowany</a></li>
+                <li><a href="olnie.html">O lnie</a></li>
+                <li><a href="inspiracje.html">Inspiracje</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/malenmalowany/" class="pl-0 pr-3 text-black"><span class="icon-facebook"></span></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/ma_len_malowany/" class="pl-3 pr-3 text-black"><span class="icon-instagram"></span></a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </header>
+
+
+        <!-- inspiracje -->
+
+        <div class="site-section">
+          <div class="container">
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7" id="inspiracje">
+                <h2 class="site-section-heading font-weight-light text-black text-center">Inspiracje</h2>
+              </div>
+            </div>
+
+            <!-- gallery -->
+
+
+            <div class="tz-gallery">
+
+              <div class="row" id="inspiration_gallery">
+
+
+
+              </div>
+
+            </div>
+
+
+
+
+
+           <script>
+for(i=0; i<96; i++)
+{
+    var inspirationGalleryMainDiv = document.getElementById("inspiration_gallery");
+    var my_div_with_column = document.createElement("div");
+    my_div_with_column.setAttribute('class', 'col-sm-6 col-md-4');
+    inspirationGalleryMainDiv.appendChild(my_div_with_column);
+
+    var my_a_with_link = document.createElement("a");
+    my_a_with_link.setAttribute('class', 'lightbox');
+    my_a_with_link.setAttribute('href', 'images/inspiracje/'+i+'.jpg');
+    my_div_with_column.appendChild(my_a_with_link);
+
+    var my_img_with_img = document.createElement("img");
+    my_img_with_img.setAttribute('class', 'lozad');
+    my_img_with_img.setAttribute('data-src', 'images/inspiracje/'+i+'.jpg');
+    my_a_with_link.appendChild(my_img_with_img);
+}
+
+
+            </script>
+
+
+            <!-- skrypt robiacy magie z przesuwaniem obrazkow -->
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+            <script>
+                baguetteBox.run('.tz-gallery');
+            </script>
+
+
+
+          </div>
+        </div>
+        <!-- koniec inspiracje -->
+
+
+    <footer class="site-footer">
+      <div class="container">
+
+        <div class="row pt-5  text-center">
+          <div class="col-md-12">
+            <div class="mb-5">
+              <h6>!ma len w sieci</h6>
+              <a target="_blank" href="https://www.facebook.com/malenmalowany/" class="pl-0 pr-2"><span
+                      class="icon-facebook"></span></a>
+              <a target="_blank" href="https://www.instagram.com/ma_len_malowany/" class="pl-2 pr-2"><span
+                      class="icon-instagram"></span></a>
+
+            </div>
+
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script data-cfasync="false"
+                                      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script>
+              All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by
+              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+        </div>
+
+
+
+
+
+  </div>
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+
+    
+  </body>
+</html>

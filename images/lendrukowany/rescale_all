@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for i in *; do convert -resize 600x ${i} ${i}.new; done
+rm *.jpg *.jpeg
+for i in *; do echo $i | sed 's/.new//g'; done
+for i in *; do mv $i $(echo $i | sed 's/.new//g'); done
