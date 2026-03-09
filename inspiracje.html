@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
   <title>!ma len</title>
+  <meta name="description" content="Zobacz nasze inspiracje z lnem w roli głównej. Galeria wyjątkowych aranżacji i pomianych produktów malowanych i drukowanych.">
+  <link rel="canonical" href="https://ma-len.pl/inspiracje.html">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,7 +48,7 @@
         <div class="row align-items-center">
 
           <div class="col-6 col-xl-2" data-aos="fade-down">
-            <img src="images/logo4.jpg" style="max-width:250px" class="img-responsive">
+            <img src="images/logo4.jpg" style="max-width:250px" class="img-responsive" alt="!ma len - logo">
 
           </div>
           <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
@@ -84,6 +86,150 @@
       </div>
 
     </header>
+
+
+        <!-- inspiracje -->
+
+        <div class="site-section">
+          <div class="container">
+            <div class="row justify-content-center mb-5">
+              <div class="col-md-7" id="inspiracje">
+                <h2 class="site-section-heading font-weight-light text-black text-center">Inspiracje</h2>
+              </div>
+            </div>
+
+            <!-- gallery -->
+
+
+            <div class="tz-gallery">
+
+              <div class="row" id="inspiration_gallery">
+
+
+
+              </div>
+
+            </div>
+
+
+
+
+
+           <script>
+for(i=0; i<96; i++)
+{
+    var inspirationGalleryMainDiv = document.getElementById("inspiration_gallery");
+    var my_div_with_column = document.createElement("div");
+    my_div_with_column.setAttribute('class', 'col-sm-6 col-md-4');
+    inspirationGalleryMainDiv.appendChild(my_div_with_column);
+
+    var my_a_with_link = document.createElement("a");
+    my_a_with_link.setAttribute('class', 'lightbox');
+    my_a_with_link.setAttribute('href', 'images/inspiracje/'+i+'.jpg');
+    my_div_with_column.appendChild(my_a_with_link);
+
+    var my_img_with_img = document.createElement("img");
+    my_img_with_img.setAttribute('class', 'lozad');
+    my_img_with_img.setAttribute('data-src', 'images/inspiracje/'+i+'.jpg');
+    my_a_with_link.appendChild(my_img_with_img);
+}
+
+
+            </script>
+
+
+            <!-- skrypt robiacy magie z przesuwaniem obrazkow -->
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+            <script>
+                baguetteBox.run('.tz-gallery');
+            </script>
+
+
+
+          </div>
+        </div>
+        <!-- koniec inspiracje -->
+
+
+    <footer class="site-footer">
+      <div class="container">
+
+        <div class="row pt-5  text-center">
+          <div class="col-md-12">
+
+            <div class="mb-5">
+              <h6>!ma len w sieci</h6>
+              <a target="_blank" href="https://www.facebook.com/malenmalowany/" class="pl-0 pr-2"><span
+                      class="icon-facebook"></span></a>
+              <a target="_blank" href="https://www.instagram.com/ma_len_malowany/" class="pl-2 pr-2"><span
+                      class="icon-instagram"></span></a>
+
+            </div>
+
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script data-cfasync="false"
+                                      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script>
+              All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by
+              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+        </div>
+
+
+
+
+
+  </div>
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-migrate-3.5.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+
+
+<!-- FIREBASE -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.4.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.4.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js"></script>
+
+<script>
+analytics = firebase.analytics();
+analytics.logEvent('page_load', {"name":"inspiracje.html"});
+</script>
+
+  </body>
+</html>
 
 
         <!-- inspiracje -->
